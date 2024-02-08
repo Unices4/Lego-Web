@@ -1,0 +1,34 @@
+:root {
+    --yellow: #FFD500;
+    --red: #D11012;
+    --blue: #00579B;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.page {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar-content img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 172px;
+}
+
+.nav-bar-content ul {
+    list-style: none;
+}
